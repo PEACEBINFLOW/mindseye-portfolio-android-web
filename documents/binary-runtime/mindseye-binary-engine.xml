@@ -1,0 +1,8 @@
+<doc>
+  <title>MindsEye Binary Engine</title>
+  <subtitle>Binary / time-labeled execution core</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-binary-engine/tree/main</repo>
+  <purpose>Models activity as discrete entries that can be replayed, compared, and scored over time.</purpose>
+
+  <flowchart>flowcharts/62_binflow-temporal-stream.svg</flowchart>
+</doc>
