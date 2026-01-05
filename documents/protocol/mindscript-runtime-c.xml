@@ -1,0 +1,6 @@
+<doc>
+  <title>MindScript Runtime (C)</title>
+  <subtitle>Low-level runtime building block</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindscript-runtime-c/tree/main</repo>
+  <purpose>C-based runtime foundation for execution and tooling boundaries.</purpose>
+</doc>
