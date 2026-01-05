@@ -1,0 +1,6 @@
+<doc>
+  <title>Google Auth</title>
+  <subtitle>Authentication building block</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-google-auth/tree/main</repo>
+  <purpose>Auth layer for safely interacting with Google services and identity boundaries.</purpose>
+</doc>
