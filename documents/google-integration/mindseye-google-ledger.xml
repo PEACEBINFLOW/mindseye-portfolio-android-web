@@ -1,0 +1,34 @@
+<doc>
+  <title>MindsEye Google Ledger</title>
+  <subtitle>Immutable organizational memory anchored in Google ecosystem semantics</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-google-ledger</repo>
+  <purpose>Defines the ledger model and Google-native mappings for storing AI activity as auditable memory.</purpose>
+
+  <concepts>
+    <item>Immutable log of decisions</item>
+    <item>Time-labeled entries</item>
+    <item>Queryable audit trail</item>
+  </concepts>
+
+  <flows>
+    <item>Receive normalized events</item>
+    <item>Persist ledger entries</item>
+    <item>Index for search / analytics</item>
+  </flows>
+
+  <code>
+    <block lang="json">
+{
+  "timestamp_micros": 1730000000000000,
+  "event_type": "WORKFLOW_COMPLETED",
+  "source": "google_workspace",
+  "payload": { "action": "gmail_label", "target": "thread:123" }
+}
+    </block>
+  </code>
+
+  <flowchart>flowcharts/61_google-ledger-architecture.svg</flowchart>
+  <links>
+    <link label="Repository">https://github.com/PEACEBINFLOW/mindseye-google-ledger</link>
+  </links>
+</doc>
