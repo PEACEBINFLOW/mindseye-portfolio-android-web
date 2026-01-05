@@ -1,0 +1,6 @@
+<doc>
+  <title>Chrome Agent Shell</title>
+  <subtitle>Browser-side capture and agent surfaces</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-chrome-agent-shell/tree/main</repo>
+  <purpose>Captures user actions and AI interactions inside the browser as ledger-ready signals.</purpose>
+</doc>
