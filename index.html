@@ -1,3 +1,4 @@
+<!-- Entrypoint wrapper (required). Keep 05_index.html as your numbered source-of-truth. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +8,7 @@
   <meta name="author" content="Peace Thabiwa (PEACEBINFLOW)">
   <meta name="keywords" content="MindsEye, Android OS, AI automation, Google AI, Portfolio Challenge">
 
-  <meta property="og:title" content="MindsEye Android OS">
-  <meta property="og:description" content="Educational web simulation of AI automation ecosystem">
-  <meta property="og:type" content="website">
-
-  <link rel="manifest" href="04_manifest.json">
+  <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#667eea">
 
   <title>MindsEye Android OS</title>
@@ -73,9 +70,7 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('06_service-worker.js')
-        .then(() => console.log('Service Worker registered'))
-        .catch(() => console.log('Service Worker registration failed'));
+      navigator.serviceWorker.register('service-worker.js');
     }
   </script>
 </body>
