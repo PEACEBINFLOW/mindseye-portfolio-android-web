@@ -1,0 +1,6 @@
+<doc>
+  <title>MindScript Google Executor</title>
+  <subtitle>Executes MindScript intents against Google APIs</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindscript-google-executor/tree/main</repo>
+  <purpose>Bridge that turns scripted intent into concrete Google operations with logging.</purpose>
+</doc>
