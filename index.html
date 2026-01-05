@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="MindsEye Android OS - Educational web simulation showcasing MindsEye repositories">
+  <meta name="author" content="Peace Thabiwa (PEACEBINFLOW)">
+  <meta name="keywords" content="MindsEye, Android OS, AI automation, Google AI, Portfolio Challenge">
+
+  <meta property="og:title" content="MindsEye Android OS">
+  <meta property="og:description" content="Educational web simulation of AI automation ecosystem">
+  <meta property="og:type" content="website">
+
+  <link rel="manifest" href="04_manifest.json">
+  <meta name="theme-color" content="#667eea">
+
+  <title>MindsEye Android OS</title>
+
+  <link rel="stylesheet" href="styles/07_android-theme.css">
+  <link rel="stylesheet" href="styles/08_navigation.css">
+  <link rel="stylesheet" href="styles/09_launcher.css">
+  <link rel="stylesheet" href="styles/10_apps.css">
+  <link rel="stylesheet" href="styles/11_animations.css">
+</head>
+<body>
+  <div id="android-device" class="android-screen">
+
+    <div class="status-bar">
+      <div class="status-left">
+        <span class="time" id="status-time">10:30</span>
+      </div>
+      <div class="status-center">
+        <span class="status-title" id="status-title">MindsEye OS</span>
+      </div>
+      <div class="status-right">
+        <span class="battery" id="status-battery">95%</span>
+        <span class="signal">●●●●</span>
+      </div>
+    </div>
+
+    <div id="screen-content" class="screen-content"></div>
+
+    <div class="navigation-bar">
+      <button id="nav-back" class="nav-button" aria-label="Back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+      <button id="nav-home" class="nav-button" aria-label="Home">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="8"/>
+        </svg>
+      </button>
+      <button id="nav-recents" class="nav-button" aria-label="Recent Apps">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="18" height="18" rx="2"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-spinner"></div>
+    <p>Loading MindsEye OS...</p>
+  </div>
+
+  <script src="scripts/12_android-navigator.js"></script>
+  <script src="scripts/13_document-loader.js"></script>
+  <script src="scripts/14_app-launcher.js"></script>
+  <script src="scripts/15_gesture-handler.js"></script>
+  <script src="scripts/16_main.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('06_service-worker.js')
+        .then(() => console.log('Service Worker registered'))
+        .catch(() => console.log('Service Worker registration failed'));
+    }
+  </script>
+</body>
+</html>
