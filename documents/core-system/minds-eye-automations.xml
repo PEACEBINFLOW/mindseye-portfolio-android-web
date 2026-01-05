@@ -1,0 +1,6 @@
+<doc>
+  <title>MindsEye Automations</title>
+  <subtitle>Automations as declarative intent + logged execution</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/minds-eye-automations/tree/main</repo>
+  <purpose>Defines automation behaviors that are driven by ledger changes and captured as outcomes.</purpose>
+</doc>
