@@ -1,0 +1,6 @@
+<doc>
+  <title>MindsEye Dashboard</title>
+  <subtitle>Visualization layer for immutable ledger data</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/minds-eye-dashboard/tree/main</repo>
+  <purpose>Displays ledger signals, trends, and system health without mutating source truth.</purpose>
+</doc>
