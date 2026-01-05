@@ -1,0 +1,6 @@
+<doc>
+  <title>MindScript Ledger</title>
+  <subtitle>Ledger integration for MindScript programs</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindscript-ledger/tree/main</repo>
+  <purpose>Ensures MindScript execution always produces ledger entries and outcomes.</purpose>
+</doc>
