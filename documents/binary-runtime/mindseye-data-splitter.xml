@@ -1,0 +1,6 @@
+<doc>
+  <title>Data Splitter</title>
+  <subtitle>Routes events to multiple targets across the ecosystem</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-data-splitter/tree/main</repo>
+  <purpose>Splits and routes signal streams into ledger, analytics, library, and search surfaces.</purpose>
+</doc>
