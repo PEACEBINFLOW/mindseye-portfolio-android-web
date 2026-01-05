@@ -1,0 +1,6 @@
+<doc>
+  <title>MindsEye SQL Bridges</title>
+  <subtitle>Adapters between ledger data and SQL interfaces</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-sql-bridges/tree/main</repo>
+  <purpose>Bridges multiple storage targets to consistent query behavior.</purpose>
+</doc>
