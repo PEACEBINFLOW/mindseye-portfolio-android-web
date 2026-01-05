@@ -1,0 +1,20 @@
+{
+  "home": {
+    "title": "MindsEye OS",
+    "defaultApps": [
+      "workspace-automation",
+      "google-ledger",
+      "gemini-orchestrator",
+      "lesson-01",
+      "lesson-02",
+      "law-n-network",
+      "core",
+      "settings"
+    ]
+  },
+  "rules": {
+    "frozen_data_only": true,
+    "no_live_data_without_backend": true,
+    "documents_are_source_of_truth": true
+  }
+}
