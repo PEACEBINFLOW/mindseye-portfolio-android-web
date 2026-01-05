@@ -1,0 +1,44 @@
+{
+  "tutorialApps": [
+    {
+      "appId": "lesson-01",
+      "title": "Lesson 01",
+      "kind": "doc",
+      "icon": "assets/icons/70_app-core.svg",
+      "document": "documents/tutorials/52_lesson-01-what-is-mindseye.xml",
+      "tags": ["tutorial", "intro"]
+    },
+    {
+      "appId": "lesson-02",
+      "title": "Lesson 02",
+      "kind": "doc",
+      "icon": "assets/icons/66_app-workspace.svg",
+      "document": "documents/tutorials/53_lesson-02-google-integration.xml",
+      "tags": ["tutorial", "google"]
+    },
+    {
+      "appId": "lesson-03",
+      "title": "Lesson 03",
+      "kind": "doc",
+      "icon": "assets/icons/71_app-binary.svg",
+      "document": "documents/tutorials/54_lesson-03-temporal-data.xml",
+      "tags": ["tutorial", "temporal", "binflow"]
+    },
+    {
+      "appId": "lesson-04",
+      "title": "Lesson 04",
+      "kind": "doc",
+      "icon": "assets/icons/69_app-network.svg",
+      "document": "documents/tutorials/55_lesson-04-network-layer.xml",
+      "tags": ["tutorial", "network", "law-n"]
+    },
+    {
+      "appId": "lesson-05",
+      "title": "Lesson 05",
+      "kind": "doc",
+      "icon": "assets/icons/68_app-orchestrator.svg",
+      "document": "documents/tutorials/56_lesson-05-agent-emergence.xml",
+      "tags": ["tutorial", "agents"]
+    }
+  ]
+}
