@@ -1,0 +1,27 @@
+<doc>
+  <title>MindsEye Google Analytics</title>
+  <subtitle>Analytics on ledger events: outcomes, latency, anomalies</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-google-analytics/tree/main</repo>
+  <purpose>Produces interpretable analytics from ledger entries without mutating them.</purpose>
+
+  <concepts>
+    <item>Outcome modeling</item>
+    <item>Latency distributions</item>
+    <item>Anomaly detection</item>
+  </concepts>
+
+  <flows>
+    <item>Read ledger entries</item>
+    <item>Aggregate by event type</item>
+    <item>Compute metrics + export</item>
+  </flows>
+
+  <code>
+    <block lang="sql">
+SELECT event_type, COUNT(*) as n
+FROM ledger_events
+GROUP BY event_type
+ORDER BY n DESC;
+    </block>
+  </code>
+</doc>
