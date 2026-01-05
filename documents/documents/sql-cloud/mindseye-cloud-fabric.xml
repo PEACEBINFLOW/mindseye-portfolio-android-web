@@ -1,0 +1,6 @@
+<doc>
+  <title>MindsEye Cloud Fabric</title>
+  <subtitle>Cloud deployment surface for the ecosystem</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-cloud-fabric/tree/main</repo>
+  <purpose>Defines how MindsEye components can be deployed and composed in cloud infrastructure.</purpose>
+</doc>
