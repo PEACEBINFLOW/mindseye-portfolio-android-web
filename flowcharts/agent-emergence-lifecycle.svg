@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <text x="40" y="70" fill="#e5e7eb" font-size="34" font-family="Arial">Agent Emergence Lifecycle</text>
+
+  <rect x="60" y="140" width="260" height="90" rx="16" fill="#111c33" stroke="#667eea"/>
+  <text x="110" y="195" fill="#e5e7eb" font-size="18" font-family="Arial">Intent</text>
+
+  <rect x="370" y="140" width="260" height="90" rx="16" fill="#111c33" stroke="#22c55e"/>
+  <text x="440" y="195" fill="#e5e7eb" font-size="18" font-family="Arial">Policy</text>
+
+  <rect x="680" y="140" width="260" height="90" rx="16" fill="#111c33" stroke="#667eea"/>
+  <text x="755" y="195" fill="#e5e7eb" font-size="18" font-family="Arial">Tools</text>
+
+  <rect x="990" y="140" width="150" height="90" rx="16" fill="#111c33" stroke="#22c55e"/>
+  <text x="1020" y="195" fill="#e5e7eb" font-size="18" font-family="Arial">Memory</text>
+
+  <line x1="320" y1="185" x2="370" y2="185" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="630" y1="185" x2="680" y2="185" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="940" y1="185" x2="990" y2="185" stroke="#94a3b8" stroke-width="4"/>
+</svg>
