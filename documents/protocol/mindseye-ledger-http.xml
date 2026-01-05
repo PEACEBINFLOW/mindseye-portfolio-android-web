@@ -1,0 +1,6 @@
+<doc>
+  <title>Ledger HTTP</title>
+  <subtitle>HTTP interface for reading/writing ledger entries</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-ledger-http/tree/main</repo>
+  <purpose>Thin HTTP interface for ledger access, intended to be strictly auditable and replayable.</purpose>
+</doc>
