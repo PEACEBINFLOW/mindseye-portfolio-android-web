@@ -1,0 +1,12 @@
+<doc>
+  <title>MindsEye Core</title>
+  <subtitle>Foundational engine: ledger, state, execution context</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/minds-eye-core/tree/main</repo>
+  <purpose>Defines the core abstractions for ledger entries, execution context, and system boundaries.</purpose>
+
+  <concepts>
+    <item>Ledger entry model</item>
+    <item>Execution context</item>
+    <item>Provenance and replay</item>
+  </concepts>
+</doc>
