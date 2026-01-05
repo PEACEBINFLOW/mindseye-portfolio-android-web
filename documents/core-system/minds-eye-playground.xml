@@ -1,0 +1,6 @@
+<doc>
+  <title>MindsEye Playground</title>
+  <subtitle>Sandbox for experimenting with the ecosystem without breaking schema</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/minds-eye-playground/tree/main</repo>
+  <purpose>Safe environment for testing flows, prompts, and tooling patterns.</purpose>
+</doc>
