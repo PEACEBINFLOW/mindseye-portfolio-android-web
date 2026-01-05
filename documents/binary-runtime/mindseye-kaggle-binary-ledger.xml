@@ -1,0 +1,6 @@
+<doc>
+  <title>Kaggle Binary Ledger</title>
+  <subtitle>Dataset builder for MindsEye ledger signals</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-kaggle-binary-ledger/tree/main</repo>
+  <purpose>Produces training/evaluation datasets from ledger structures for ML and anomaly scoring.</purpose>
+</doc>
