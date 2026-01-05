@@ -1,0 +1,10 @@
+<doc>
+  <title>Lesson 01 — What is MindsEye?</title>
+  <subtitle>Ledger-first organizational memory</subtitle>
+  <purpose>MindsEye records prompts, tool calls, workflows, and outcomes as immutable entries.</purpose>
+  <concepts>
+    <item>Immutable memory beats overwriting prompts</item>
+    <item>Time-labeled data enables replay and audit</item>
+    <item>Automation becomes explainable</item>
+  </concepts>
+</doc>
