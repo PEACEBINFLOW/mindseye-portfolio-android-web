@@ -1,0 +1,6 @@
+<doc>
+  <title>MindScript Search</title>
+  <subtitle>Search and retrieval patterns for MindScript</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindscript-search/tree/main</repo>
+  <purpose>Defines retrieval patterns for selecting memory, evidence, and prior runs.</purpose>
+</doc>
