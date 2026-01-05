@@ -1,0 +1,18 @@
+<doc>
+  <title>MindsEye Search Engine</title>
+  <subtitle>Querying organizational memory as a first-class system</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/minds-eye-search-engine/tree/main</repo>
+  <purpose>Search across ledger entries, prompts, outcomes, and workflows.</purpose>
+
+  <concepts>
+    <item>Text search + structured filters</item>
+    <item>Timeline queries</item>
+    <item>Audit-driven exploration</item>
+  </concepts>
+
+  <code>
+    <block lang="pseudo">
+SEARCH(query="WORKFLOW_", where="event_type='WORKFLOW_COMPLETED'", orderby="timestamp DESC")
+    </block>
+  </code>
+</doc>
