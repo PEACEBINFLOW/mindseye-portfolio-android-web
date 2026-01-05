@@ -1,0 +1,6 @@
+<doc>
+  <title>Google Gateway</title>
+  <subtitle>Gateway surface for Google integrations</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-google-gateway/tree/main</repo>
+  <purpose>Central gateway that mediates auth + requests + logging for Google systems.</purpose>
+</doc>
