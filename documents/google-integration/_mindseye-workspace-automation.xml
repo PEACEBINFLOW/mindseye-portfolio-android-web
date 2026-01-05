@@ -1,0 +1,32 @@
+<doc>
+  <title>MindsEye Workspace Automation</title>
+  <subtitle>Google Workspace signals → time-labeled ledger events</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-workspace-automation/tree/main</repo>
+  <purpose>Automate extraction of Workspace events (Gmail/Docs/etc.) into a structured ledger-first pipeline.</purpose>
+
+  <concepts>
+    <item>Ledger-first capture</item>
+    <item>Workspace event normalization</item>
+    <item>Automation triggers + replayable intent</item>
+  </concepts>
+
+  <flows>
+    <item>Capture Workspace signals</item>
+    <item>Normalize into event schema</item>
+    <item>Store as immutable entries</item>
+    <item>Trigger downstream workflows</item>
+  </flows>
+
+  <code>
+    <block lang="pseudo">
+EVENT = CAPTURE(workspace_signal)
+ENTRY = LEDGER.WRITE(EVENT, timestamp)
+WORKFLOW.MAYBE_TRIGGER(ENTRY)
+    </block>
+  </code>
+
+  <flowchart>flowcharts/60_workspace-automation-flow.svg</flowchart>
+  <links>
+    <link label="Repository">https://github.com/PEACEBINFLOW/mindseye-workspace-automation/tree/main</link>
+  </links>
+</doc>
