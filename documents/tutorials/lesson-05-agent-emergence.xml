@@ -1,0 +1,6 @@
+<doc>
+  <title>Lesson 05 — Agent Emergence</title>
+  <subtitle>How agents form from memory + tools + policy</subtitle>
+  <purpose>Agents emerge when intent is repeatable, tool access is controlled, and outcomes are logged.</purpose>
+  <flowchart>flowcharts/64_agent-emergence-lifecycle.svg</flowchart>
+</doc>
