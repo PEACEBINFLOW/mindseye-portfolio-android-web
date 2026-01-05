@@ -1,0 +1,37 @@
+{
+  "name": "MindsEye Android OS",
+  "short_name": "MindsEye",
+  "description": "Educational web simulation of MindsEye ecosystem as Android OS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#667eea",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icons/70_app-core.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/70_app-core.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "developer-tools"],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/76_launcher-home.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/screenshots/77_app-workspace-detail.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ]
+}
