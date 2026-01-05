@@ -1,0 +1,5 @@
+<doc>
+  <title>Lesson 03 — Temporal Data</title>
+  <subtitle>BinFlow: time-labeled streams</subtitle>
+  <purpose>Every event is a point in time. Streams become timelines. Timelines become behavior.</purpose>
+</doc>
