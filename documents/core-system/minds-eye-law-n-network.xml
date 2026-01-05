@@ -1,0 +1,20 @@
+<doc>
+  <title>LAW-N Network Layer</title>
+  <subtitle>Network-native routing for signals and intelligence</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/minds-eye-law-n-network/tree/main</repo>
+  <purpose>Routes signals across sources, streams, and targets using consistent network semantics.</purpose>
+
+  <concepts>
+    <item>Signal routing</item>
+    <item>Network-native primitives</item>
+    <item>Policy and provenance boundaries</item>
+  </concepts>
+
+  <flows>
+    <item>Receive event</item>
+    <item>Apply routing rules</item>
+    <item>Emit to target streams</item>
+  </flows>
+
+  <flowchart>flowcharts/63_lawn-network-routing.svg</flowchart>
+</doc>
