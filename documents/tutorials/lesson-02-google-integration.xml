@@ -1,0 +1,10 @@
+<doc>
+  <title>Lesson 02 — Google Integration</title>
+  <subtitle>Workspace signals as structured events</subtitle>
+  <purpose>Gmail/Docs/Drive/Calendar become auditable signals feeding the ledger.</purpose>
+  <flows>
+    <item>Capture Google signals</item>
+    <item>Normalize into event schema</item>
+    <item>Write ledger entry</item>
+  </flows>
+</doc>
