@@ -1,0 +1,6 @@
+<doc>
+  <title>MindScript Core</title>
+  <subtitle>Intent language core for MindsEye</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindscript-core/tree/main</repo>
+  <purpose>Defines the language primitives for expressing intent and constraints.</purpose>
+</doc>
