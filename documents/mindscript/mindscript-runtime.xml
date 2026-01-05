@@ -1,0 +1,6 @@
+<doc>
+  <title>MindScript Runtime</title>
+  <subtitle>Runtime for executing MindScript programs</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindscript-runtime/tree/main</repo>
+  <purpose>Executes MindScript programs in a controlled environment with logging.</purpose>
+</doc>
