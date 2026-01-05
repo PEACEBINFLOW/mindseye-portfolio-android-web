@@ -1,0 +1,6 @@
+<doc>
+  <title>Workspace Connectors</title>
+  <subtitle>Connect Gmail/Docs/Drive/Calendar into a unified signal stream</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/minds-eye-gworkspace-connectors/tree/main</repo>
+  <purpose>Defines how Google apps become structured signals for the ledger-first system.</purpose>
+</doc>
