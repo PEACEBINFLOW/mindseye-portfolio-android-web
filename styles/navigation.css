@@ -1,0 +1,32 @@
+.navigation-bar{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height: 72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  background: rgba(15,23,42,.88);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(148,163,184,.14);
+}
+
+.nav-button{
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  border: 1px solid rgba(148,163,184,.16);
+  background: rgba(17,24,39,.35);
+  color: rgba(229,231,235,.9);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  transition: transform .08s ease, background .2s ease;
+}
+
+.nav-button:hover{ background: rgba(102,126,234,.12); }
+.nav-button:active{ transform: scale(.96); }
+
+.nav-button svg{ width: 22px; height: 22px; }
