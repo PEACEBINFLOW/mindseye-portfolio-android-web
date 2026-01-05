@@ -1,0 +1,28 @@
+<doc>
+  <title>MindsEye Gemini Orchestrator</title>
+  <subtitle>Orchestrates Gemini-based reasoning as a controlled, replayable system</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-gemini-orchestrator</repo>
+  <purpose>Defines orchestration patterns for Gemini models: prompts, tools, policies, and ledger logging.</purpose>
+
+  <concepts>
+    <item>Tool orchestration</item>
+    <item>Policy gates (allow/review/deny)</item>
+    <item>Prompt evolution as versioned intent</item>
+  </concepts>
+
+  <flows>
+    <item>Receive intent request</item>
+    <item>Apply policy gate</item>
+    <item>Execute model + tools</item>
+    <item>Write outcomes to ledger</item>
+  </flows>
+
+  <code>
+    <block lang="pseudo">
+INTENT -> POLICY.GATE -> GEMINI.RUN(tools)
+RESULT -> LEDGER.WRITE(outcome)
+    </block>
+  </code>
+
+  <flowchart>flowcharts/64_agent-emergence-lifecycle.svg</flowchart>
+</doc>
