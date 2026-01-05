@@ -48,3 +48,13 @@ Open `index.html` in your browser.
 ### Option B: Local static server
 ```bash
 python -m http.server 8000
+
+Then open:
+http://localhost:8000
+
+Deploy to Cloud Run
+gcloud run deploy mindseye-android \
+  --source . \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated
