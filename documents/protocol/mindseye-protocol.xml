@@ -1,0 +1,6 @@
+<doc>
+  <title>MindsEye Protocol</title>
+  <subtitle>Formal protocol boundary between capture, execution, and ledger</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-protocol/tree/main</repo>
+  <purpose>Defines contract rules and message shapes for the ecosystem.</purpose>
+</doc>
