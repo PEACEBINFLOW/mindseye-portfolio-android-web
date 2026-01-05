@@ -1,0 +1,6 @@
+<doc>
+  <title>Android LAWT Runtime</title>
+  <subtitle>Android-side runtime for time-labeled automation</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-android-lawt-runtime/tree/main</repo>
+  <purpose>Models Android activity and automations under a time-labeled ledger approach.</purpose>
+</doc>
