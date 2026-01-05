@@ -1,0 +1,6 @@
+<doc>
+  <title>MindsEye SQL Core</title>
+  <subtitle>SQL layer for ledger exploration</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-sql-core/tree/main</repo>
+  <purpose>Defines SQL semantics for querying ledger memory and workflow outcomes.</purpose>
+</doc>
