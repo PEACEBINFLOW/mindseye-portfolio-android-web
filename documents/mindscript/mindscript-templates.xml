@@ -1,0 +1,6 @@
+<doc>
+  <title>MindScript Templates</title>
+  <subtitle>Reusable programs of intent</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindscript-templates/tree/main</repo>
+  <purpose>Template library for common actions: classify, route, summarize, log.</purpose>
+</doc>
