@@ -1,0 +1,6 @@
+<doc>
+  <title>Ledger Core</title>
+  <subtitle>Core ledger definitions and persistence model</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-ledger-core/tree/main</repo>
+  <purpose>Defines ledger entry schemas, indexes, and minimal storage assumptions.</purpose>
+</doc>
