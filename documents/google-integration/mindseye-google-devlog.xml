@@ -1,0 +1,28 @@
+<doc>
+  <title>MindsEye Google DevLog</title>
+  <subtitle>Development logging as structured, queryable artifacts</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-google-devlog/tree/main</repo>
+  <purpose>Captures build evolution: decisions, notes, failures, and fixes — stored as structured logs.</purpose>
+
+  <concepts>
+    <item>Dev logs as artifacts</item>
+    <item>Traceability of decisions</item>
+    <item>Lifecycle visibility</item>
+  </concepts>
+
+  <flows>
+    <item>Write dev entry</item>
+    <item>Tag entry to system module</item>
+    <item>Query by time and component</item>
+  </flows>
+
+  <code>
+    <block lang="markdown">
+## DevLog Entry
+- time: 2026-01-05
+- module: google-ledger
+- change: add schema validator
+- impact: prevents malformed events
+    </block>
+  </code>
+</doc>
