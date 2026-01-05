@@ -1,0 +1,28 @@
+<doc>
+  <title>MindsEye Google Workflows</title>
+  <subtitle>Workflow automation that treats actions as ledger-triggered steps</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-google-workflows/tree/main</repo>
+  <purpose>Executes automations as explicit steps, each step logged and replayable.</purpose>
+
+  <concepts>
+    <item>Workflow steps as state machine</item>
+    <item>Replayable execution</item>
+    <item>Explicit dependencies</item>
+  </concepts>
+
+  <flows>
+    <item>Trigger from ledger entry</item>
+    <item>Execute step chain</item>
+    <item>Record completion + outputs</item>
+  </flows>
+
+  <code>
+    <block lang="pseudo">
+on LEDGER.EVENT(type="GMAIL_RECEIVED"):
+  step1: classify
+  step2: label
+  step3: notify
+  write WORKFLOW_COMPLETED
+    </block>
+  </code>
+</doc>
