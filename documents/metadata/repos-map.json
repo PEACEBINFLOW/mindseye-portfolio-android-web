@@ -1,0 +1,48 @@
+{
+  "apps": [
+    {
+      "appId": "workspace-automation",
+      "title": "Workspace Automation",
+      "kind": "doc",
+      "icon": "assets/icons/66_app-workspace.svg",
+      "document": "documents/google-integration/17_mindseye-workspace-automation.xml",
+      "repo": "https://github.com/PEACEBINFLOW/mindseye-workspace-automation/tree/main",
+      "tags": ["google", "gmail", "docs", "automation"]
+    },
+    {
+      "appId": "google-ledger",
+      "title": "Google Ledger",
+      "kind": "doc",
+      "icon": "assets/icons/67_app-ledger.svg",
+      "document": "documents/google-integration/18_mindseye-google-ledger.xml",
+      "repo": "https://github.com/PEACEBINFLOW/mindseye-google-ledger",
+      "tags": ["ledger", "audit", "memory", "google"]
+    },
+    {
+      "appId": "gemini-orchestrator",
+      "title": "Gemini Orchestrator",
+      "kind": "doc",
+      "icon": "assets/icons/68_app-orchestrator.svg",
+      "document": "documents/google-integration/19_mindseye-gemini-orchestrator.xml",
+      "repo": "https://github.com/PEACEBINFLOW/mindseye-gemini-orchestrator",
+      "tags": ["gemini", "orchestration", "policy", "tools"]
+    },
+
+    { "appId": "law-n-network", "title": "LAW-N Network", "kind": "doc", "icon": "assets/icons/69_app-network.svg", "document": "documents/core-system/23_minds-eye-law-n-network.xml", "repo": "https://github.com/PEACEBINFLOW/minds-eye-law-n-network/tree/main", "tags": ["network", "routing", "law-n"] },
+    { "appId": "core", "title": "MindsEye Core", "kind": "doc", "icon": "assets/icons/70_app-core.svg", "document": "documents/core-system/24_minds-eye-core.xml", "repo": "https://github.com/PEACEBINFLOW/minds-eye-core/tree/main", "tags": ["core", "ledger", "runtime"] },
+    { "appId": "binary-engine", "title": "Binary Engine", "kind": "doc", "icon": "assets/icons/71_app-binary.svg", "document": "documents/binary-runtime/30_mindseye-binary-engine.xml", "repo": "https://github.com/PEACEBINFLOW/mindseye-binary-engine/tree/main", "tags": ["binflow", "temporal", "engine"] },
+
+    { "appId": "protocol", "title": "Protocol", "kind": "doc", "icon": "assets/icons/72_app-protocol.svg", "document": "documents/protocol/36_mindseye-protocol.xml", "repo": "https://github.com/PEACEBINFLOW/mindseye-protocol/tree/main", "tags": ["protocol", "contracts"] },
+    { "appId": "mindscript", "title": "MindScript", "kind": "doc", "icon": "assets/icons/73_app-mindscript.svg", "document": "documents/mindscript/43_mindscript-core.xml", "repo": "https://github.com/PEACEBINFLOW/mindscript-core/tree/main", "tags": ["dsl", "intent", "runtime"] },
+    { "appId": "sql", "title": "SQL Layer", "kind": "doc", "icon": "assets/icons/74_app-sql.svg", "document": "documents/sql-cloud/49_mindseye-sql-core.xml", "repo": "https://github.com/PEACEBINFLOW/mindseye-sql-core/tree/main", "tags": ["sql", "query"] },
+
+    {
+      "appId": "settings",
+      "title": "Settings",
+      "kind": "page",
+      "icon": "assets/icons/75_app-settings.svg",
+      "page": "apps/settings/84_settings-app.html",
+      "tags": ["ui", "preferences"]
+    }
+  ]
+}
