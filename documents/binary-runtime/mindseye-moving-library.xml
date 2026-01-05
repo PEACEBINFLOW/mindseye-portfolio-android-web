@@ -1,0 +1,6 @@
+<doc>
+  <title>Moving Library</title>
+  <subtitle>Reusable moving parts: patterns, transforms, utilities</subtitle>
+  <repo>https://github.com/PEACEBINFLOW/mindseye-moving-library/tree/main</repo>
+  <purpose>Shared modules that implement system transforms across sources and streams.</purpose>
+</doc>
